@@ -14,6 +14,8 @@ with open('Video provides a powerful way to help you prove your point.docx','rb'
 
 decrypted = fernet.decrypt(encrypted)
 
+
+#Writes the decrypted the file
 with open('Video provides a powerful way to help you prove your point.docx', 'wb') as decrypted_file:
     decrypted_file.write(decrypted)
     
